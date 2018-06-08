@@ -82,6 +82,9 @@ mousePressed = function() {
       resetGame(myBird);
     }
   }
+  else {
+    myBird.smack();
+  }
 }
 
 resetGame = function(bird){

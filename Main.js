@@ -17,7 +17,7 @@ function setup ()
   button = new restartButton;
 }
 
-function draw()
+function draw ()
 {
   background(50);
   if (!prevScores){

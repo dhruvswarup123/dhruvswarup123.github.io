@@ -1,0 +1,160 @@
+What is IoT?
+
+The Internet of Things (IoT), also known as the Internet of Everything (IoE), is a giant network of connected web-enabled devices. These devices collect, send and act on data they acquire from their surrounding environments using embedded sensors, processors and communication hardware. Instead of manually performing analysis and then execution of everyday tasks, this network enables exchange of real time information automatically. This can help accomplish repetitive, mundane and difficult tasks without user interaction. These tasks can range anywhere from simply making coffee when one arrives home to more complex tasks like improving the efficiency of industrial processes. 
+
+Examples of such systems can include:
+Smart Air Conditioners, which cool/heat rooms based on automatically learnt user habits.
+Automatic door locks that allows the user access when in close proximity to the lock.
+Garage doors that open when the car is close to it.
+Voice input devices that can performs various tasks like switching on and off a bulb when the user verbally commands it to. 
+A camera taking pictures of incoming parts, and comparing with an ‘ideal’ part to make sure there are no defects, and then storing the part data on the cloud.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How does it work?
+
+A General Process:
+All the devices that are part of this network communicate through a process called machine to machine (M2M) communication. They use built-in hardware and software to send and receive data via various communication protocols. They might use our smartphones as their gateway to the Internet, connect to some other piece of hardware in our homes that's acting as a hub or connect directly through our home Internet service. They connect to these local devices using technologies such as:
+Bluetooth
+Bluetooth LE (low energy)
+6LowPan
+IEEE 802.15.4
+NFC (near-field communication)
+ZigBee
+Z-wave
+
+They may even bypass local connection by directly using cellular communication or may communicate directly with other smart devices in the vicinity.
+
+Once connected, the data collected can be processed and analysed on web-connected servers in large data centers called ‘the cloud’. The analysed data can then be sent either back to those devices, or to an application or a website on our mobile phones and computers, so we can access the results, or even set into motion another process. Usually the only human interaction required is that of setup or data access, and the devices can function completely autonomously. 
+
+The Devices:
+To be able to perform tasks autonomously, as a part of IoT, the connected devices must be able to perform these basic functions:
+Input 
+Processing and Communication
+Output
+
+
+
+
+Firstly, the devices need power to function, which may be provided using power cords, internal batteries (rechargeable or replaceable), or even through new sources like solar panels. For the sake of explanation, consider an automatic garage door opener. Here, the main motor, which will open the door will be powered using a power cord.
+
+For input, these devices gather data either (1)directly or (2)indirectly. Direct forms of input are data measured directly from sensors present in the device (such as temperature, moisture, light, motion, chemical levels, heart rate and body movement). Indirect forms of input are the data gathered from sensors not directly present in the devices. This means that the devices are retrieving data from external sources or sensors like city road systems that signal smartphones to help monitor traffic conditions. Smart devices can work in conjunction with tagging technology including RFID tags, QR codes, barcodes and the like to obtain data about items. Continuing the same example, device responsible for opening the garage door may collect the distance of the car from the garage, using a sensor in the car.
+
+Now, the data collected can be processed internally using locally installed firmware or embedded software. They can also send this data to the cloud servers for data crunching via the internet. Some use advanced AI algorithms that let them learn from and adjust to various stimuli and patterns. This sending and processing of the sensor data is often nearly instantaneous, allowing the devices to react in real-time. The distance of the car from the garage is calculated in real time and continuously sent to the garage, and as soon as it exceeds a certain threshold distance, the command to open the door is sent.
+
+The processed data usually yields an output. This output may be performed by either this very gadget or by another. This could involve anything from performing a physical action to simply displaying the data to the user. The opening of the garage door, is the output in this case. Another output involved may be an alert message sent to the user that his/her garage door has been opened.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IoT in Automotive Industry
+
+Using IoT in manufacturing can help optimize every phase of production, by making processes more precise and by avoiding human error. The website industrialintelligence.net, in its article titled ‘9 ways car manufacturing plants can improve production with IoT’, stated that IoT has brought about what is called the 4th Industrial Revolution or Industry 4.0. It elaborated on how IoT can help to revolutionize the automobile industry:
+1. Improved Operations
+The smart sensors connected to the devices enable communication between machines and the data they gather. This information is presented to manufacturers on the other end. With this information they can diagnose problems, see where they can improve efficiency, and plan their operations. There is also a high percentage of reduced inventories. A lot of paper and clutter is done away with to pave way for a clean, organized environment. 
+2. Minimum Failure Rate
+Since all machines are computerized and smart sensors are sending information, failure rate is almost obsolete. Machines can now be monitored for their efficiency and maintenance and can be scheduled to repair or replace before problems occur. Improved production is a direct result.
+3. Cut Employee Expenses And Energy
+The introduction of smart sensors and robots in the manufacturing industry brings faster, more efficient, and smoother operations. Personnel only need to supervise the technology. Salaries and other funds are channelled to production improvement. The company also benefits in energy output. Their output is predictable and can be increased rather than the unpredictable nature of human output. Higher energy output translates to higher productivity.
+4. Visibility
+Equipment, factories, and electronics are connected; hence, more intelligent data is obtained and shared from plant floor to supply chain. This means that the company produces cars according to feedback and demand from the market. The suppliers are able to communicate with the market as to what is in store for them: what is the quality and efficiency of new cars being produced and how many of them are released. All these streamlined processes optimize supply and demand and bring to market new products more quickly.
+5. Higher Quality Goods
+Since groups of robots do the assembling of parts like windshields, door panels and fenders, higher quality goods are created using more precise lasers and cameras. They also paint and seal which eliminates the need to control climate and air. The robots inspect their own work for errors upon completion of the cars. This means the consumers get error free cars as opposed to the errors that occur due to human strain.
+6. Human Safety
+Robots pick and assemble the many small parts rather than humans, which reduces fatigue and risk of injuries in employees. Smart machines have sensors that monitor and lower emissions. They regulate air, water, and oil; thus, they decrease human clumsiness and boost productivity in the long run.
+7. Track Equipment Effectiveness
+IoT enables the company to track the overall equipment effectiveness (OEE) automatically in real time. This makes it possible to calculate the equipment utilization which improves the output and efficiency of the assembly line and the plant itself. It also helps the companies to plan their routine maintenance schedules.
+8. Faster Decision Making
+With these new intelligent operations, collecting data from various systems is easier and faster. One is also able to get a 360 degree perspective so that biased decisions are not made. It enables the company to also find a root cause easily and act accordingly. This improves overall performance.
+9. Prediction
+With aggregate data in place, a lot of prediction is made by data analytics. They are able to predict when a machine will no longer be useful, when some types of cars should be done away with, when some types should be introduced, what amount needs to be produced by what year, and many other details. Large economies of scale are thus appreciated and planned for. This leads to a more satisfied clientele and upward profitability.
+All these factors, when considered suggest that the future of manufacturing lies in IoT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Possible Technical Problems
+
+One of the Major technical problems faced by IoT is the running out of IP addresses. The standard identifier used to route Internet traffic to and from networked devices is the IP (Internet protocol) address. The form of IP address currently used is the IPv4 32-bit standard created in 1981. An IP address consists of four numbers separated by periods, each between zero and 255 (that's 256 possibilities for each of the four slots). Because of those limitations, the maximum number of available addresses on this standard is capped at around 4.295 billion. The Wall Street Journal reported that the U.S. will run out of IPv4 addresses in 2015, and that some other countries already have.
+
+This has been encouraging countries to move on to IPv6, a 128-bit standard, could allow for more than 340 undecillion addresses (340 followed by 36 zeros). Its format consists of eight sets of four-character hexadecimal values separated by colons. In the cases of IPv4 and IPv6, fewer addresses than the maximum number are publicly available because of related rules and set-aside blocks, but in the latter case, the available number will still far exceed the number of devices that will be available in the years to come (or maybe ever). This means each device could be assigned a unique IP address. Organizations need to put money and effort into making their hardware, software and networks compatible with the new IP addresses, although lots of newer equipment, operating systems and browsers can already handle IPv6.
+
+An interim solution that a lot of entities already use is network address translation (NAT). NAT allows you to map whole networks of devices to a single IP address, which allows the Internet to see the network as its destination device. Then the network servers differentiate between the devices within that network to get data to and from the right places. 
+
+Another pressing concern for IoT is that it is vulnerable to cloud attacks. Given that a large amount of the data that will run the IoT will be stored in the cloud it is likely that cloud providers will be one of the principle targets in this kind of war. While there is growing awareness of this problem, cybersecurity is still under-resourced in comparison to the potential scale of the threat. To get some kind of idea of the problem, the World Economic Forum report cites analysis that suggests that the takedown of a single cloud provider could cause $50 billion to $120 billion of economic damage — a loss somewhere between Hurricane Sandy and Hurricane Katrina.
+ 
+
+
+
+
+
+
+
+
+
+
+References:
+
+https://www.ibm.com/blogs/internet-of-things/what-is-the-iot/
+
+https://www.wired.com/insights/2013/11/what-the-internet-of-things-will-bring-to-the-workplace/
+
+https://computer.howstuffworks.com/internet-of-things.htm
+
+https://computer.howstuffworks.com/internet-of-things2.htm
+
+https://computer.howstuffworks.com/internet-of-things3.htm
+
+https://www.cmswire.com/cms/internet-of-things/7-big-problems-with-the-internet-of-things-024571.php
+
+http://www.digitalistmag.com/iot/2018/02/21/critical-investment-iot-in-auto-manufacturing-05880174
+
+https://www.codit.eu/how-can-we-help/internet-of-things/
+
+https://www.industrialintelligence.net/9-ways-car-manufacturing-plants-can-improve-production-iot/
+
+https://www.wsj.com/articles/coming-this-summer-u-s-will-run-out-of-internet-addresses-1431479401
+
+http://www.theregister.co.uk/2014/04/24/ipv6_iot/
+

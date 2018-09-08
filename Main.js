@@ -115,7 +115,7 @@ printEndMessage = function(score, scores) {
   fill(textColour);
   textAlign(CENTER,CENTER);
   textSize(txtSize);
-  text('YOU SUCK XD', width/2, height/2 - sep * rectHeight/txtSize);
+  text('GAME OVER', width/2, height/2 - sep * rectHeight/txtSize);
   pop();
 
   push();

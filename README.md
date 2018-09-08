@@ -1,6 +1,6 @@
 # Flappy Birds
 ## A simple minimalistic version of the popular game flappy birds. Made with JavaScript using the p5js libraries.
- ```html
+{::nomarkdown}
 <!DOCTYPE HTML>
   <head>
     <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
@@ -12,4 +12,4 @@
     <script src="Score.js"></script>
   </head>
 </HTML>
-```
+{:/}

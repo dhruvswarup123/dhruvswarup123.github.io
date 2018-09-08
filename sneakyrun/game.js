@@ -29,23 +29,23 @@ var triesSoFar = 0;
 var instructionsDown;
 function preload() {
 	//game.load.image('instructionsDown', 'assets/instructionsDown.png');
-	game.load.image('instructionsBox', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/dude.png');
-	game.load.image('instructions', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/instructions.png');
-	game.load.image('startScreen', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/startscreen.png');
-	game.load.image('floor', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/floor.png');
-	game.load.tilemap('map', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/game.json', null, Phaser.Tilemap.TILED_JSON);
+	game.load.image('instructionsBox', 'assets/dude.png');
+	game.load.image('instructions', 'assets/instructions.png');
+	game.load.image('startScreen', 'assets/startscreen.png');
+	game.load.image('floor', 'assets/floor.png');
+	game.load.tilemap('map', 'game.json', null, Phaser.Tilemap.TILED_JSON);
 	game.world.setBounds(0,0,2000, 1500);
-	game.load.spritesheet('guard', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/guard.png', 32, 32, 5);
-	game.load.spritesheet('player', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/player.png', 32, 32, 5);
-	game.load.audio('music', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/bgmusic.ogg','assets/bgmusic.mp3');
-	game.load.audio('shot', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/shot.ogg', 'assets/shot.mp3');
-	game.load.image('wall', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/wall.png');
-	game.load.image('bullet','https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/bullet.png');
-	game.load.image('stairs', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/stairs.png');
-	game.load.image('door1', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/door1.png');
-	game.load.image('door2', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/door2.png');
-	game.load.image('key1', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/key1.png');
-	game.load.image('key2', 'https://github.com/dhruvswarup123/dhruvswarup123.github.io/tree/master/sneakyrun/assets/key2.png');
+	game.load.spritesheet('guard', 'assets/guard.png', 32, 32, 5);
+	game.load.spritesheet('player', 'assets/player.png', 32, 32, 5);
+	game.load.audio('music', 'assets/bgmusic.ogg','assets/bgmusic.mp3');
+	game.load.audio('shot', 'assets/shot.ogg', 'assets/shot.mp3');
+	game.load.image('wall', 'assets/wall.png');
+	game.load.image('bullet','assets/bullet.png');
+	game.load.image('stairs', 'assets/stairs.png');
+	game.load.image('door1', 'assets/door1.png');
+	game.load.image('door2', 'assets/door2.png');
+	game.load.image('key1', 'assets/key1.png');
+	game.load.image('key2', 'assets/key2.png');
 }
 
 function create() {

@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<style type="text/css">
+			a:link    {
+				/* Applies to all unvisited links */
+				text-decoration:  none;
+				font-weight:      bold;
+				color:            rgb(255, 255, 255);
+				} 
+			a:visited {
+				/* Applies to all visited links */
+				text-decoration:  none;
+				font-weight:      bold;
+				color:            rgb(255, 255, 255);
+				} 
+			a:hover   {
+				/* Applies to links under the pointer */
+				text-decoration:  underline;
+				font-weight:      bold;
+				color:            rgb(122, 122, 122);
+				} 
+			a:active  {
+				/* Applies to activated links */
+				text-decoration:  underline;
+				font-weight:      bold;
+				color: white;
+				} 
+		</style>
+			
+		<style>
+			body {
+				height: 100%;
+				background: #202020;
+			}
+			.title {
+				margin:auto;
+				text-align: center;
+				color:white;
+		
+
+				font-size:75px;
+				font-family: "Lucida Console", Monaco, monospace;
+			}
+			a {
+				margin:auto;
+				text-align: center;
+				color:white;
+		
+
+				font-size:50px;
+				font-family: "Lucida Console", Monaco, monospace;
+			}
+		</style>
+	</head>
   
 	<nav>
 		<ul>
-		  <strong>Select a game: </strong>
-		  <a href="flappy.html">1. Flappy Birds</a>
-		  <a href="sneaky.html">2. SneakyRun</a>
+		  <strong class = "title">Choose Your Challenge</br></br></strong>
+		  <a href="flappy.html">1. FlappyBird</br></br></a>
+		  <a href="sneaky.html">2. SneakyRun</br></br></a>
 		</ul>
-	  </nav>
+	</nav>
 
 </html>

@@ -5,11 +5,12 @@ function Bird ()
   this.vel = -15;
   this.acc = 0.4;
   this.force = -10;
+  this.r = 20;
  
   this.show = function() {
     push();
     stroke(255);
-    ellipse(this.x, this.y, 20, 20);
+    ellipse(this.x, this.y, this.r, this.r);
     pop();
   }
 

@@ -32,7 +32,7 @@ function Pipe ()
   }
 
   this.checkBang = function(bird) {
-    /*if ((bird.x >= this.x) && (bird.x <= (this.x + this.thick))) {
+    if ((bird.x >= this.x) && (bird.x <= (this.x + this.thick))) {
       if(bird.y < this.len || bird.y > (this.len + this.space)) {
         return true;
       }
@@ -42,8 +42,8 @@ function Pipe ()
     }
     else {
       return false;
-    }*/
-    
+    }
+    /*
     //New implementation: implements the bird edges
     //Case 1: bird to the left, hitting either side
     if ((bird.x+bird.r >= this.x && bird.x+bird.r <= this.x+this.thick) && (bird.y <= this.len || bird.y >= this.len+this.space)) {
@@ -55,7 +55,8 @@ function Pipe ()
     //else if (this.x <= ) {
     //  return true;
     //}
-    return false;
+    return false;*/
+    
   }
 
   this.updateScore = function(bird) {
